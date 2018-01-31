@@ -1,0 +1,85 @@
+/* this is where all of your CSS styles go */
+
+#test {
+	width: 100px;
+	height: 100px;
+	background: red;
+	position: absolute;
+	left: -50px;
+	top: 0px;
+}
+
+.anagramholder {
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	left: 50%;
+	margin-left: -200px;
+	top: 50%;
+	margin-top: -100px;
+}
+
+.ana {
+	font-family: 'Bungee Hairline', cursive;
+	font-size: 50px;
+	float: left;
+	margin-left: 40px;
+
+}
+
+
+@keyframes p_move {
+	0% { top: 0px; left: 0px; font-family: 'Sacramento', cursive; }
+	35% { top:  250px; left: 160px; }
+	100% { top: -120px; left: 0px; color:pink; font-family:'Cinzel', serif;}
+}
+
+#p {
+	position: relative;
+	animation: p_move 5s infinite cubic-bezier(.52,.77,0,1);
+}
+@keyframes a_move {
+	0% { top: 0px; left: -20px; font-family: 'Sacramento', cursive; transform: rotate(79deg); }
+	35% { top:  250px; left: 80px; }
+	100% { top: -120px; left: -10px; color:pink; font-family:'Cinzel', serif; }
+	
+}
+#a {
+	position: relative;
+	animation: a_move 5s infinite cubic-bezier(.52,.77,0,1);
+}
+
+@keyframes i_move {
+	0% { top: 0px; left: 0px; color: grey; font-family: 'Sacramento', cursive; }
+	35% { top:  250px; left: -50px; }
+	100% { top: -120px; left:  -80px; color:pink; font-family:'Cinzel', serif; }
+}
+
+#i {
+	position: relative;
+	animation: i_move 5s infinite cubic-bezier(.52,.77,0,1);
+}
+
+
+@keyframes r_move {
+	0% { top: 0px; left: 0px; font-family: 'Sacramento', cursive; }
+	35% { top: 250px; left: -10px; }
+	100% { top: -120px; left: 60px; color:pink; font-family:'Cinzel', serif;}
+}
+
+#r {
+	position: relative;
+	animation: r_move 5s infinite cubic-bezier(.52,.77,0,1);
+}
+
+
+@keyframes s_move {
+	0% { top: 0px; left: 0px; font-family: 'Sacramento', cursive; }
+	35% { top: 250px; left: -100px; }
+	100% { top: -120px; left: 10px; color:pink; font-family:'Cinzel', serif;}
+}
+
+#s {
+	position: relative;
+	animation: s_move 5s infinite cubic-bezier(.52,.77,0,1);
+}
